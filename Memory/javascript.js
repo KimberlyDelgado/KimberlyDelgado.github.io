@@ -11,6 +11,7 @@ $("div.card"). click(function(){
     //compare cards
   } else{
       firstcard=$(this).find('p').html
+      console.log(firstcard);
   }
   });
 });
