@@ -10,7 +10,7 @@ $("div.card"). click(function(){
     if(!onfirstclick){
     //compare cards
   } else{
-      firstcard=$(this).find('p').html
+      firstcard=$(this).find('p').html();
       console.log(firstcard);
   }
   });
