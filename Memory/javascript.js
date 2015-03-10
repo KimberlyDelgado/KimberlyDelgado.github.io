@@ -12,7 +12,6 @@ $("div.card"). click(function(){
   } else{
       firstcard=$(this).find('p').html();
       console.log(firstcard);
-  }
    }
   });
 });
