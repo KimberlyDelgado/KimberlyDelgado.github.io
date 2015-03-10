@@ -13,5 +13,8 @@ $("div.card"). click(function(){
       firstcard=$(this).find('p').html();
       console.log(firstcard);
   }
+   if firstcard==secondcard{
+     "opacity,""1");
+   }
   });
 });
