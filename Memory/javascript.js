@@ -12,11 +12,6 @@ $("div.card"). click(function(){
   } else{
       firstcard=$(this).find('p').html();
       console.log(firstcard);
-  campareValue(firstcard,secondcard)
-    if firstcard==secondcard{
-      return $(this).find('p').css("opacity","1")
-      else{ $(this).find('p').css("opacity",("0")
-      };
     }
    }
   });
