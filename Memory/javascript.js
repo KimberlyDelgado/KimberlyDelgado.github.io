@@ -15,7 +15,7 @@ var clicked = 'first';
       clicked = 'second';
     }
     else{
-       $(this).find('p').css('opacity',0);
+       $(this).find('p').css('opacity',1);
        clicked='first';
     }
 });
