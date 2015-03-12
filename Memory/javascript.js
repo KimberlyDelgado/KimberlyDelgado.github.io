@@ -3,8 +3,6 @@ $(document).ready(function(){
 
   for(i in card_array){
     $('#card_holder').append('<div class="card"><p>'+card_array[i]+'</p></div>');
-  }
-});
  var clicked = false;
   $('.card').on('click'; function(){
     if(on == false){
