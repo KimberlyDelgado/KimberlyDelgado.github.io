@@ -8,11 +8,11 @@ $(document).ready(function(){
   for(i in card_array){
     $('#card_holder').append('<div class="card"><p>'+card_array[i]+'</p></div>');
   }
-var clicked = false;
+var clicked = 'first';
   $('.card').on('click', function(){
-    if(on == false){
+    if(clicked == 'first'){
       $(this).find('p').css('opacity', 1);
-      on = true;
+      clicked = 'second';
     }
     else {
        $(this).find('p').css('opacity',0);
