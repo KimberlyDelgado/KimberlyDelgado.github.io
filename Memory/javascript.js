@@ -17,6 +17,5 @@ var clicked = false;
     else {
        $(this).find('p').css('opacity',0);
     }
-  });
 });
 
