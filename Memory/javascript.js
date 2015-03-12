@@ -23,7 +23,7 @@ var clicked = 'first';
         $('.selected').css('color', 'red').removeClass('selected');
        }
        else{
-        $('.selected').css('opacity',0).removeClass('selected');
+        setTimeout(function(){$('.selected').css('opacity',0).removeClass('selected');}, 500);
        }
     }
 });
