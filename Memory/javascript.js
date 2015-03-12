@@ -11,12 +11,20 @@ $(document).ready(function(){
 var clicked = 'first';
   $('.card').on('click', function(){
     if(clicked == 'first'){
-      $(this).find('p').css('opacity', 1);
+      $(this).find('p').css('opacity', 1).addClass('selected');
+      first_guess=$(this).find('p').html();
       clicked = 'second';
     }
     else{
-       $(this).find('p').css('opacity',1);
+       $(this).find('p').css('opacity',1).addClass('selected');
        clicked='first';
+       second_guess=$(this).find('p').html();
+       if (first_guess==second_guess){
+        
+       }
+       else{
+        $('.selected').css('opacity',0);
+       }
     }
 });
 });
