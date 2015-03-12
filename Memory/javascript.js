@@ -18,4 +18,4 @@ var clicked = false;
        $(this).find('p').css('opacity',0);
     }
 });
-
+});
