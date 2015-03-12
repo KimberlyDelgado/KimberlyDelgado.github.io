@@ -20,10 +20,10 @@ var clicked = 'first';
        clicked='first';
        second_guess=$(this).find('p').html();
        if (first_guess==second_guess){
-        
+        $('.selected').css('color', 'red').removeClass('selected');
        }
        else{
-        $('.selected').css('opacity',0);
+        $('.selected').css('opacity',0).removeClass('selected');
        }
     }
 });
