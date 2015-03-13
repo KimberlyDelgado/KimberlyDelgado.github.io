@@ -26,11 +26,11 @@ function shuffle(array) {
 var shuffled_array = shuffle(card_array);
   for(i in shuffled_array){
     $('#card_holder').append('<div class="card"><p>'+shuffled_array[i]+'</p></div>');
-  }
+  }//this part shuffles the cards to randomize the values of the cards
 var clicked = 'first';
   $('.card').on('click', function(){
     if(clicked == 'first'){//checks if we are on the first card
-      $(this).find('p').css('opacity', 1).addClass('selected');
+      $(this).find('p').css('opacity', 1).addClass('selected');//this adds the card to a group to 
       first_guess=$(this).find('p').html();
       clicked = 'second';
     }
@@ -40,10 +40,10 @@ var clicked = 'first';
        second_guess=$(this).find('p').html();
        if (first_guess==second_guess){
         $('.selected').css('color', 'red').removeClass('selected');
-       }
+       }//this compares the cards, and if they are equal, they change to the color red. then it removes it from the group
        else{
         setTimeout(function(){$('.selected').css('opacity',0).removeClass('selected');}, 500);
-       }
+       }//this waits for half a second to reveal the card before flipping over.
     }
 });
 });
