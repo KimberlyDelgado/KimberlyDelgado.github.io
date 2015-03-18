@@ -2,7 +2,9 @@ h1{
   font-size:60px;
   text-align:center;
   font-family:Courier New;
-}
-#enter{
-  display:inline-block;
+input{
+  width:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
