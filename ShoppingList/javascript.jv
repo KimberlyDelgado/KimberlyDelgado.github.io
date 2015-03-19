@@ -1,1 +1,4 @@
-
+$(document).ready(function(){
+$('button').on('click',fuunction(){});
+$('p')val();
+$(#mydiv)append(),
