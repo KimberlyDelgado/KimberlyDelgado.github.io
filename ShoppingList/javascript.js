@@ -6,5 +6,4 @@ $(document).ready(function(){
   $('Remove').on('click',function(){
     var item=$('input').val();
     $('div').empty();
-  }
 })
