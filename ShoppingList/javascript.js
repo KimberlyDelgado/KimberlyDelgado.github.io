@@ -1,9 +1,9 @@
 $(document).ready(function(){
-  $('button').on('click',function(){
+  $('#add').on('click',function(){
    var item=$('input').val();
    $("div").append('<p>'+item+'</p>')
   });
-  $('Remove').on('click',function(){
+  $('#remove').on('click',function(){
     var item=$('input').val();
    $('div').empty();
 })
