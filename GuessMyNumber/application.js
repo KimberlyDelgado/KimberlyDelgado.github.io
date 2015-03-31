@@ -10,13 +10,13 @@ $(document).ready(function(){
     
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
-    if (userGuess === computerChoice){
-      return "Good job! You guesses my number!";
+    if (userGuess === comp_Integer){
+      return "Congratulations! You guessed the right number!";
     }
       //what happens if the guess is correct?
       
     //if the user guessed too high...
-    else if (userGuess > computerGuess){
+    else if (userGuess > comp_Integer){
       return "Your guess is too high! Guess a lower number!";
     }
       //update the 'feedback' paragraph to tell them to guess lower
