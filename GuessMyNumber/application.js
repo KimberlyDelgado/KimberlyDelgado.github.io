@@ -11,7 +11,7 @@ $(document).ready(function(){
       
       
       var element = document.getElementById("guess_counter");
-      element.innerHTML = "numberof Guesses="+guessNum;
+      element.innerHTML = "Number of Guesses="+guessNum;
     
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
