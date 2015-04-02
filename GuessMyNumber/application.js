@@ -8,7 +8,10 @@ $(document).ready(function(){
     //save their guess as a variable
     var userGuess= parseInt ($('input').val());
     guessNum = guessNum +1;
-      $('#guess_counter').append(guessNum);
+      
+      
+      var element = document.getElementById("guess_counter");
+      element.innerHTML = "numberof Guesses="+guessNum;
     
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
