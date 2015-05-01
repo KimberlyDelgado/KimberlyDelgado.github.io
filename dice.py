@@ -3,6 +3,8 @@ from random import randint
 for i in range (500):
   rol_x = randint (1,6)
   rol y = randint (1,6)
-  total = rol_x + rol_y
+  print total = rol_x + rol_y
   dice_tracker[total] = dice_tracker[total] + 1
 
+for number in dice_tracker:
+  print (total/500) * 100
