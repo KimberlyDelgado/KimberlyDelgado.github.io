@@ -30,4 +30,9 @@ def turnleft():
 
 move_forward(3)
 turnright()
+move_forward(914.4)
+turnright()
+move_forward(609.6)
+turnright()
+move_forward(1219.2)
 
